@@ -15,4 +15,11 @@ theme:
         - yaml
         - python
         - django
-
+nav:
+    - Home: index.md
+    - HPC setup:
+        - Overview: hpc-setup/index.md
+        - Installation: hpc-setup/dot-files.md
+    - R setup:
+        - Overview: using-r/index.md
+        - R-Studio: using-r/singularity-r.md
